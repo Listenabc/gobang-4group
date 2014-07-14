@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/bm.res" /d "_DEBUG" /d "_AFXDLL" "E:\GitHub\gobang\bm.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF97.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/bm.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\GitHub\gobang\Again.cpp"
+"E:\GitHub\gobang\Begin.cpp"
+"E:\GitHub\gobang\bm.cpp"
+"E:\GitHub\gobang\bmDoc.cpp"
+"E:\GitHub\gobang\bmView.cpp"
+"E:\GitHub\gobang\MainFrm.cpp"
+"E:\GitHub\gobang\Splash.cpp"
+"E:\GitHub\gobang\Winmethod.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF97.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF98.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/bm.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\GitHub\gobang\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF98.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF99.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/bm.pdb" /debug /machine:I386 /out:"Debug/bm.exe" /pdbtype:sept 
+.\Debug\Again.obj
+.\Debug\Begin.obj
+.\Debug\bm.obj
+.\Debug\bmDoc.obj
+.\Debug\bmView.obj
+.\Debug\MainFrm.obj
+.\Debug\Splash.obj
+.\Debug\StdAfx.obj
+.\Debug\Winmethod.obj
+.\Debug\bm.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF99.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Again.cpp
+Begin.cpp
+E:\GitHub\gobang\Begin.cpp(130) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+E:\GitHub\gobang\Begin.cpp(140) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+bm.cpp
+bmDoc.cpp
+bmView.cpp
+E:\GitHub\gobang\bmView.cpp(891) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+E:\GitHub\gobang\bmView.cpp(896) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MainFrm.cpp
+Splash.cpp
+Winmethod.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/bm.bsc"  .\Debug\StdAfx.sbr .\Debug\Again.sbr .\Debug\Begin.sbr .\Debug\bm.sbr .\Debug\bmDoc.sbr .\Debug\bmView.sbr .\Debug\MainFrm.sbr .\Debug\Splash.sbr .\Debug\Winmethod.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+bm.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
